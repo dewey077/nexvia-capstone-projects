@@ -1,0 +1,23 @@
+PASS tests/unit.test.js
+  commission split
+    ✓ 10% commission, no discount (3 ms)
+    ✓ discount is shared proportionally and totals reconcile (1 ms)
+  coupons
+    ✓ percent coupon (1 ms)
+    ✓ flat coupon capped at subtotal
+    ✓ min order enforced (3 ms)
+    ✓ expired coupon rejected (2 ms)
+    ✓ usage limit enforced (1 ms)
+  API guards (no database needed)
+    ✓ health check (27 ms)
+    ✓ protected route without token -> 401 (7 ms)
+    ✓ admin route without token -> 401 (7 ms)
+    ✓ register rejects invalid role (13 ms)
+    ✓ register rejects short password (6 ms)
+    ✓ unknown route -> 404 (3 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       13 passed, 13 total
+Snapshots:   0 total
+Time:        1.388 s, estimated 2 s
+Ran all test suites.
