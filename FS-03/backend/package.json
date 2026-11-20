@@ -1,0 +1,35 @@
+{
+  "name": "fs03-lms-backend",
+  "version": "1.0.0",
+  "description": "Learning Management System with Live Classes",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "latest",
+    "bullmq": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-async-errors": "latest",
+    "ffmpeg-static": "latest",
+    "helmet": "latest",
+    "ioredis": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "multer": "latest",
+    "pdfkit": "latest",
+    "socket.io": "latest"
+  },
+  "devDependencies": {
+    "jest": "latest",
+    "nodemon": "latest",
+    "socket.io-client": "^4.8.4",
+    "supertest": "latest"
+  }
+}

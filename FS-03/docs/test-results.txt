@@ -1,0 +1,9 @@
+PASS - instructor joins as host
+PASS - student joins as viewer and the class is live
+PASS - host is told that a viewer joined
+PASS - signal passes from host to viewer
+PASS - chat message reaches the instructor
+PASS - bad token is rejected
+PASS - students are told when the instructor leaves
+
+All live class checks passed
